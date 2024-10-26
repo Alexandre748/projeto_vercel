@@ -1,3 +1,7 @@
+body{
+    background-color: aliceblue;
+}
+
 h1{
     text-align: center;
     margin: 100px;
@@ -6,3 +10,46 @@ h1{
     
     
 }
+
+.todosRepositorios{
+    overflow-y: scroll;
+    width: fit-content;
+    height: fit-content;
+    margin: 300px;
+    overflow-x: hidden;
+    overflow-block: scroll;
+    height: 600px;
+    border: 3px solid black;
+    border-radius: 7px;
+    background-color: white;
+}
+
+.repositorio{
+    align-items: start;
+    margin: 50px;
+    padding: 30px;
+    gap: 30px;
+    font-size: 20px;
+    border: 1px solid gray;
+    border-radius: 3px;
+
+}
+
+#info{
+  text-align: center;
+  gap: 50px;
+}
+
+a{
+    width: fit-content;
+    color: white;
+    background-color: aqua;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+a:hover{
+    outline: 10px;
+    color: rgb(9, 81, 190);
+}
+
