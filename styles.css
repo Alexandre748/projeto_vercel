@@ -43,14 +43,23 @@ h1{
 #info{
   text-align: center;
   gap: 50px;
+
+}
+
+#siteBotao{
+    position: relative;
+    margin-top: 40px;
+
+ 
+
 }
 
 a{
     width: fit-content;
     color: white;
-    background-color: aqua;
+    background-color: rgb(33, 75, 75);
     padding: 15px;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
 a:hover{
